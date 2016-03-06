@@ -1,0 +1,38 @@
+﻿生成启动时间为 2015/6/8 12:12:23。
+     1>项目“D:\OpenGL_Code\Distributable\ModelView\ModelView\ModelView.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\ObjUtils.cpp ..\src\main.cpp
+         ObjUtils.cpp
+     1>d:\opengl_code\distributable\modelview\glm\glm\detail\func_integer.inl(252): warning C4244: “=”: 从“glm::uint64”转换到“glm::uint”，可能丢失数据
+     1>d:\opengl_code\distributable\modelview\glm\glm\detail\func_integer.inl(272): warning C4244: “=”: 从“glm::int64”转换到“int”，可能丢失数据
+     1>..\src\ObjUtils.cpp(9): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>..\src\ObjUtils.cpp(88): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+     1>..\src\ObjUtils.cpp(298): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+     1>..\src\ObjUtils.cpp(543): warning C4018: “<”: 有符号/无符号不匹配
+         main.cpp
+     1>d:\opengl_code\distributable\modelview\glm\glm\detail\func_integer.inl(252): warning C4244: “=”: 从“glm::uint64”转换到“glm::uint”，可能丢失数据
+     1>d:\opengl_code\distributable\modelview\glm\glm\detail\func_integer.inl(272): warning C4244: “=”: 从“glm::int64”转换到“int”，可能丢失数据
+     1>D:\OpenGL_Code\Distributable\ModelView\inc\TrackBallCamera.h(34): warning C4244: “*=”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OpenGL_Code\Distributable\ModelView\Release\ModelView.exe" /INCREMENTAL:NO /NOLOGO glew32.lib glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\OpenGL_Code\Distributable\ModelView\Release\ModelView.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OpenGL_Code\Distributable\ModelView\Release\ModelView.lib" /MACHINE:X86 /SAFESEH Release\GLApplication.obj
+         Release\GLCubemapTexture.obj
+         Release\GLFramebuffer.obj
+         Release\GLMesh.obj
+         Release\GLObject.obj
+         Release\GLShader.obj
+         Release\GLSkybox.obj
+         Release\GLTexture.obj
+         Release\main.obj
+         Release\ObjUtils.obj
+         Release\specrend.obj
+         Release\TrackBallCamera.obj
+         Release\TransformFeedbackUtils.obj
+         Release\Win32.obj
+         正在生成代码
+         已完成代码的生成
+         ModelView.vcxproj -> D:\OpenGL_Code\Distributable\ModelView\Release\ModelView.exe
+     1>已完成生成项目“D:\OpenGL_Code\Distributable\ModelView\ModelView\ModelView.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.33
