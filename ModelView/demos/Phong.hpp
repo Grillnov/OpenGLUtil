@@ -11,7 +11,7 @@ public:
 	static const char* GetAssetDir(const char* name)
 	{
 		static std::string oldAsset;
-		oldAsset = "D:\\OpenGL_Code\\Distributable\\ModelView";
+		oldAsset = "D:\\OpenGLUtil\\ModelView";
 		oldAsset.append("\\assets\\");
 		oldAsset.append(name);
 		return oldAsset.c_str();
