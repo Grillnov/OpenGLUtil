@@ -52,3 +52,15 @@ Temporary Items
 /ModelView/glew
 /ModelView/glm
 /ModelView/assets
+
+# MSVC 140 generated files
+
+/ModelView/ModelView/Debug
+/ModelView/ModelView/Release
+*.pdb
+*.exe
+*.log
+*.dll
+*.lib
+*.ilk
+*.sdf

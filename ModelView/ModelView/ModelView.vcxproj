@@ -84,7 +84,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(SolutionDir)\glew\glew-1.12.0\include;$(SolutionDir)\glfw\glfw-3.1.1\include;$(SolutionDir)\inc;$(SolutionDir)\glm;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)\glew\glew-1.12.0\lib\Release\Win32;$(SolutionDir)\glfw\glfw-3.1.1\win_build\lib-vc2013;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)\glew\glew-1.12.0\lib\Release\Win32;$(SolutionDir)\glfw\glfw-3.1.1\win_build\lib-vc2015;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
