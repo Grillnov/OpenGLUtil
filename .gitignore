@@ -60,3 +60,4 @@ Temporary Items
 /ModelView/Debug
 /ModelView/Release
 *.sdf
+*.suo
