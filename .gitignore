@@ -61,3 +61,6 @@ Temporary Items
 /ModelView/Release
 *.sdf
 *.suo
+
+# Documents not used
+# */doc
